@@ -1,0 +1,13 @@
+1：一个数据元素由若干个数据项组成，这种情况下将数据元素成为记录，将线性表称为文件。
+ADT List {
+  数据对象
+  数据关系
+  基本操作：
+      InitList（&L）
+      DestroyList(&L）
+      ClearList(&L)
+      ListEmpty(L)
+      ListLength(L)
+      GetElem(L,i,&e)
+      NextElem(L,cur_e,next_e）
+}
